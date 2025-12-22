@@ -1,5 +1,3 @@
-package ChattingApplication;
-
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
@@ -117,6 +115,7 @@ public class Client implements ActionListener
 
                 // Sleep for a short amount of time to prevent CPU hogging
                 Thread.sleep(100);
+                s.close();
             }
 
         }
